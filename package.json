@@ -1,0 +1,30 @@
+{
+  "name": "dgrt-dive",
+  "version": "0.0.1",
+  "description": "Horst Blau Visuals",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgrt/dive.git"
+  },
+  "keywords": [
+    "Electron",
+    "dgrt",
+    "dive"
+  ],
+  "author": "dgrt",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/dgrt/dive/issues"
+  },
+  "homepage": "https://github.com/dgrt/dive",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0",
+    "three": ">=0.76.1",
+    "mousetrap": ">=1.5.3",
+    "underscore": ">= 1.8.3"
+  }
+}

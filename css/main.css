@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liveVideo{
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    display: none;
+}
+
+#overlay{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:400px;
+  height:400px;
+  background-color: #118899;
+}
+
+#three{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:200px;
+  background-color: #778829;
+}
